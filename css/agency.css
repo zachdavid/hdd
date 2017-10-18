@@ -114,7 +114,7 @@ body {
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: black;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -156,7 +156,11 @@ header.masthead {
       line-height: 75px;
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+      text-transform: uppercase; }
+    header.masthead .intro-text .intro-logo {
+      width: 960px;
+      height: auto;
+      margin-bottom: 30px; } }
 
 .service-heading {
   margin: 15px 0;
