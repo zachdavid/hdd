@@ -41,7 +41,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 80px 0; } }
 
 ::-moz-selection {
   background: #28a745;
@@ -73,7 +73,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .navbar-brand {
-    color: #28a745;
+    color: white;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #1e7e34; }
@@ -128,15 +128,15 @@ header.masthead {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
+      background-color: #28a745;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
@@ -146,21 +146,26 @@ header.masthead {
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
-      font-style: italic;
       line-height: 40px;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
-      margin-bottom: 50px;
+      margin-bottom: 150px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
     header.masthead .intro-text .intro-logo {
       width: 960px;
       height: auto;
-      margin-bottom: 30px; } }
+      margin-bottom: 50px; } }
+
+.lead-in {
+  margin: auto;
+  text-align: center;
+  margin: 15px 0;
+  color: #a72828; }
 
 .service-heading {
   margin: 15px 0;
@@ -521,7 +526,7 @@ ul.social-buttons {
   color: #28a745 !important; }
 
 .btn-primary {
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   border-color: #28a745;
   background-color: #28a745;
@@ -562,7 +567,7 @@ ul.social-buttons {
 
 .btn-xl {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 20px 40px;
   border-radius: 3px;
   color: white;
