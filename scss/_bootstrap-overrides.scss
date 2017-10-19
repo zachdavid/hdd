@@ -17,3 +17,8 @@
   @include button-variant(white, $theme-primary, $theme-primary);
   @include heading-font;
 }
+@media (max-width: 600px) {
+  .btn-xl {
+    display: none;
+  }
+}
