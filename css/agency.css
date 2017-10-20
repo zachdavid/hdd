@@ -164,19 +164,15 @@ header.masthead {
       height: auto;
       margin-bottom: 50px; } }
 
-.lead-in {
-  margin: auto;
-  text-align: center;
-  margin: 15px 0;
-  color: #a72828; }
+#info .logos {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  margin-bottom: 25px; }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none; }
-
-.logos {
-  text-align: left;
-  padding-bottom: 20px; }
+#info .logos img {
+  height: auto;
+  width: 350px; }
 
 #portfolio .portfolio-item {
   right: 0;
