@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: black;
-  background-image: url("../img/stairs.jpg");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -257,6 +257,15 @@ header.masthead {
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
+  .portfolio-modal .modal-content div.items {
+    background-color: red;
+    width: 50%; }
+  .portfolio-modal .modal-content ul.modal-ul {
+    width: 80%;
+    align-self: center;
+    align-items: baseline; }
+    .portfolio-modal .modal-content ul.modal-ul li {
+      line-height: 25px; }
   .portfolio-modal .modal-content img {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content button {
