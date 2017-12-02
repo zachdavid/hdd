@@ -21,4 +21,7 @@ footer {
     text-transform: none;
     @include heading-font;
   }
+  a.fa {
+    font-size: 48px;
+  }
 }
