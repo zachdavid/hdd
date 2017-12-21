@@ -91,7 +91,7 @@
   .modal-content {
     min-height: 100%;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     border: none;
     border-radius: 0;
     background-clip: border-box;
@@ -124,7 +124,7 @@
       padding-bottom: 20px;
       background-color: #f8f9fa!important;
       display: flex;
-      justify-content: center;
+      justify-content: left;
       width: 80%;
       margin: auto;
       position: relative;
@@ -137,11 +137,11 @@
     ul.modal-ul {
       //background-color: #f8f9fa!important;
       width: 80%;
-      align-self: center;
+      align-self: left;
       align-items: baseline;
 
       li {
-        align-items: flex-start;
+        align-items: left;
         line-height: 25px;
       }
     }
