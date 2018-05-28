@@ -12,7 +12,7 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $theme-primary;
+    color: white;
     @include script-font;
     &.active,
     &:active,
@@ -47,6 +47,9 @@
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    img {
+      visibility: hidden;
+    }
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -61,6 +64,9 @@
       }
     }
     &.navbar-shrink {
+      img {
+        visibility: visible;
+      }
       padding-top: 0;
       padding-bottom: 0;
       background-color: $gray-darker;
